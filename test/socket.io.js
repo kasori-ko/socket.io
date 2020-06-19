@@ -192,7 +192,7 @@ describe('socket.io', function () {
 
       it('should work with #attach', function (done) {
         var srv = http(function (req, res) {
-          res.writeHead(403);
+          res.writeHead(408);
           res.end();
         });
         var sockets = io();
